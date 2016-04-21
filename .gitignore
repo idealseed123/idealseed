@@ -1,3 +1,13 @@
+# Exclude these files from the git repo
+wp-content/backup/*
+wp-content/cache/*
+wp-content/upgrade/*
+wp-content/uploads/*
+sitemap.*
+
+# Include these files in previously blocked directories
+!wp-content/uploads/.htaccess
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
