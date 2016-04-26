@@ -137,6 +137,8 @@ h1 {
   top: 8px; }
 .c-section {
   padding: 70px 0; }
+div.c-news div.c-section {
+  padding: 70px 0 20px 0; }
 .c-section h2 {
   color: #2a2e3c;
   font-size: 30px;
