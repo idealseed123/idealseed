@@ -15,7 +15,8 @@ if(isset($_SESSION['theme_color'])){
 	
 }else {
 
-$theme_color ='#dd2342';
+//$theme_color ='#dd2342';
+$theme_color ='#e4c600';
 $theme_color = sanitize_text_field($theme_color);
 
 
